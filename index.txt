@@ -1,0 +1,30 @@
+organizacion de proyectos en React
+
+* crear una carpeta
+* crear un entorno de Node.js = ya que por que react sea un framewook no deja de usar muchas herramientas de por debajo usan node.js talos como Babel, webpack, o herramientas de SAS => 'npm init -y'
+- Parla de que es y para que sirve 'npm init -y'
+- Paral de que es y para que srive un archivo 'package.json'
+* Instalacion de modulos
+- 'npm i webpack' --parla
+- 'npm i webpack-cli' --parla
+- 'npm i @babel/core' --parla
+- 'npm i @babel/preset-env' --parla
+- 'npm i @babel/preset-react' --parla
+- 'npm i babel-loader' --parla
+
+* creamos un archivo 'webpack.config.js' --parla
+* creamos carpeta 'SRC' y creamos nuestro 'index.js'
+* vamos al pakage.json y en los scripts creamos el comando ("start" : "webpack --mode development")
+* vamos al pakage.json y en los scripts creamos el comando ("production" || "build" : "webpack --mode production")
+* creamos en la carpeta 'SRC' nuestro archivo index.html y dentro de la estructura normal de HTML creamos un div con ID de root que es en donde desplegaremos nuestra App
+* 'npm i html-webpack-plugin' --parla
+* escribimos la confi del archivo webpack (pegar aqui codigo y explicacion)
+* creamos un nuevo archivo llamdo '.babelrc' --parla    
+* 'npm i react '
+* 'npm i react-dom '
+* 'npm i webpack-dev-server '
+* vamos al pakage.json y en los scripts y modificamos el comando ("start" : "webpack-dev-server --mode development --open") por defecto se abrira 
+en el puerto 8080 pero si quieren cambiar de puerto basta con solo agregar --port 3000
+* dentro de la carpeta de 'SRC' creamos las carpetas 'componnts' y 'continers' 
+-los components con los conjuntos de etiquetas que estan dentro de otras
+-los container son los conjuntos de etiquetas que contienen a otros componentes

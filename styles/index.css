@@ -1,0 +1,11 @@
+.container {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    background-color: #232323;
+    position: relative;
+}
+
+body {
+    margin: 0;
+}
